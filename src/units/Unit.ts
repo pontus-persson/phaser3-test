@@ -7,7 +7,7 @@ class Unit extends Phaser.GameObjects.Sprite {
         super(config.scene, config.x, config.y, 'player');
 
         this.scene = config.scene;
-        this.scene.add.existing(this);
+        // this.scene.add.existing(this);
         // console.log(this.type);
     }
 
